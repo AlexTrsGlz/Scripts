@@ -1,4 +1,4 @@
-DROP DEFAULT CONSTRAINT
+        --DROP DEFAULT CONSTRAINT
 	declare @Command  varchar(200)
 	select @Command = 'ALTER TABLE GT_PatentesXEntidad DROP CONSTRAINT ' + d.name
 	from sys.tables t
